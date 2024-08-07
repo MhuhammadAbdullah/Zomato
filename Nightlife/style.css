@@ -1,6 +1,10 @@
+/* .diningOut,.delivery,.nightLife{
+    border-bottom: 3px solid #ff7e8b;
+    color:#ff7e8b !important;
+} */
+
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -189,7 +193,6 @@ ul {
 
 }
 
-
 .text-of-box1 a {
     text-decoration: none;
     color: #828282;
@@ -200,14 +203,71 @@ ul {
    
 }
 
-.button-container{
-    border-top: 1px solid #d6d6d6;
-    margin-top: 20px;
+.box3 {
+    background: #F8F8F8;
+    width: 100%;
+    height: 450px;
+
+}
+
+.box3-content {
+    margin-left: 155px;
+
+}
+
+.box3-content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.box3-content p,
+i {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.box3-content a {
+    margin-left: 150px;
+    text-decoration: none;
+    color: #ff7e8b;
+}
+
+.step-one {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+    list-style: none;
+}
+
+.step-one img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    filter: brightness(0.8);
+
+
+}
+
+.child-of-step-one {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: -60px;
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+}
+.para3{
+    margin-left: 20px;
 }
 .button {
     display: flex;
-    margin-top: 25px;
-    margin-left: 170px;
+    margin-top: -55px;
+    margin-left: 155px;
     gap: 10px;
 }
 
@@ -221,126 +281,29 @@ ul {
     padding: 11px;
     color: #828282;
 }
-.btn:hover{
-    background-color: #F8F8F8;
-}
+
 .btn a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #828282;
 }
-.ads{
-    width: 100%;
-    height: 800px;
-
-}
-.brand-container-1{
-    background: #F8F8F8;
-    width: 100%;
-    height: 350px;
-}
-.brand-container-1 h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    margin-left: 170px;
-    padding-top: 40px;
-}
-.menu-container-1 {
-    display: inline-flex;
-    margin-left: 170px;
+.btn:hover{
+    background-color: #F8F8F8;
 }
 
-.menu-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; 
-    align-items: center; 
-    gap: 40px;
-    cursor: pointer;
+.landscape-image img {
+    width: 1130px;
+    height: 250px;
+    margin-left: 155px;
+    padding-top: 50px;
 }
 
-.menu-images div img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-
-.menu-images div {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-.brand-container-2{
-    background: white;
-    width: 100%;
-}
-.brand-container-2 h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    margin-left: 170px;
-    padding-top: 40px;
-}
-.brand-container-2 .menu-images-2 .one{
-    width: 150px;
-    height: 150px;
-    background: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50%;
-}
-.brand-container-2 .menu-images-2 .two{
-    width: 150px;
-    height: 150px;
-    background: #FFBC0D;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50%;
-}
-.brand-container-2 .menu-images-2 .three{
-    width: 150px;
-    height: 150px;
-    background: #F8C0C1;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50%;
-}
-.brand-container-2 .menu-images-2 .four{
-    width: 150px;
-    height: 150px;
-    background: #587B3B;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50%;
-}
-.menu-images-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; 
-    align-items: center; 
-    gap: 40px;
-    cursor: pointer;
-}
-.menu-images-2 div img {
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
-    padding-left: 25px;
-}
-.menu-images-2 div p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 30px;
-}
-.menu-images-2 div p span{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: center;
-}
 .text-2 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 500;
     margin-left: 155px;
-    margin-top: 160px;
+    margin-top: 15px;
 }
 
 .child-of-step-two {
@@ -348,7 +311,6 @@ ul {
     text-align: center;
     justify-content: center;
     gap: 30px;
-    padding-top: 30px;
     margin-bottom: 30px;
     list-style: none;
 }
@@ -400,14 +362,15 @@ ul {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    height: 25px;
+    height: 30px;
     padding: 2px 50px 2px 14px;
     font-weight: 500;
     line-height: 24px;
     margin-top: -50px;
     transform: translate(-50%, -50%);
-    width: 70px;
-    margin-left: 80px;
+    width: 150px;
+    margin-left: 118px;
+    gap: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #E5F3F3;
     background: linear-gradient(90deg, rgb(17, 85, 203) 0%,
@@ -425,39 +388,39 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 260px;
+    margin-right: 180px;
 }
 .p1-2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 250px;
+    margin-right: 290px;
 }
 .p1-3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 240px;
+    margin-right: 180px;
     margin-top: -1px;
 }
 .p1-4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 260px;
+    margin-right: 210px;
 }
 .p1-5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 220px;
+    margin-right: 240px;
     margin-top: -1px;
 }
 .box4-1 .step-two-text .branch .p1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-right: 255px;
+    margin-right: 110px;
 }
 
 .p2{
@@ -475,7 +438,7 @@ ul {
     width: 50px;
     height: 20px;
     border-radius: 5px;
-    margin-left: 295px;
+    margin-left: 300px;
     margin-top: -35px;
 }
 .box4-text {
@@ -483,8 +446,17 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #828282;
-    gap: 70px;
+    gap: 60px;
     margin-top: -5px;
+    margin-left: 10px;
+}
+.box4-text2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #828282;
+    gap: 50px;
+    margin-top: -15px;
     margin-left: 10px;
 }
 .box4-1 .box4-text {
@@ -492,7 +464,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #828282;
-    gap: 80px;
+    gap: 70px;
     margin-left: 10px;
 }
 .box4-1 .box4-text4 {
@@ -503,6 +475,7 @@ ul {
     gap: 58px;
     margin-left: 10px;
 }
+
 .box4-text1 {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -512,23 +485,24 @@ ul {
     margin-top: -15px;
     margin-left: 10px;
 }
-.box4-text2 {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #828282;
-    gap: 140px;
-    margin-top: -15px;
-    margin-left: 10px;
-}
+
 
 .box4-text-2-2 {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #828282;
-    gap: 80px;
+    gap: 60px;
     margin-top: -5px;
+    margin-left: 10px;
+}
+.box4-text2-2-2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #828282;
+    gap: 180px;
+    margin-top: -15px;
     margin-left: 10px;
 }
 .box4-text2-3 {
@@ -545,7 +519,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #828282;
-    gap: 130px;
+    gap: 100px;
     margin-top: -15px;
     margin-left: 10px;
 }
@@ -554,7 +528,16 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #828282;
-    gap: 25px;
+    gap: 80px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.box4-text2-1-2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #828282;
+    gap: 160px;
     margin-top: -15px;
     margin-left: 10px;
 }
@@ -567,10 +550,18 @@ ul {
     margin-top: -15px;
     margin-left: 10px;
 }
+.box4-text2-2-3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #828282;
+    gap: 1480px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
 .dark{
     color: black;
     font-weight: 600;
-    margin-left: 290px;
 }
 .footer{
     background: #F8F8F8;
@@ -686,6 +677,7 @@ margin: auto;
 	font-size: 13px;
     color: gray;
     letter-spacing: 0.5px;
+    
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
