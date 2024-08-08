@@ -1,28 +1,3 @@
-/* img{
-    width: 127px;
-    height: 27px;
-    margin-left: 235px;
-    margin-top: 15px;
-}
-.nav-box{
-    display: flex;
-    align-items: center;
-    -webkit-box-align: center;
-    height: 50px;
-    width: 700px;
-    margin-left: 400px;
-    margin-top: -40px;
-    background: rgb(255, 255, 255);
-    border-radius: 8px;
-    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
-    border: 1px solid rgb(232, 232, 232);
-}
-
-.nav-box #icon{
-    font-size: 26px;
-    margin-left: 400px;
-    margin-bottom: 30px;
-} */
 body {
     margin: 0;
     box-sizing: border-box;
@@ -248,12 +223,15 @@ li:target .text-of-box1 a::before {
     width: 100%;
 }
 
+<<<<<<< HEAD
 
 
 /* .diningout,.delivery,.nightLife{
     border-bottom: 3px solid #ff7e8b;
     color:#ff7e8b !important;
 } */
+=======
+>>>>>>> 749cf53aa32f311d5a9cf1f3aceca8048f45293b
 .box3 {
     background: #F8F8F8;
     width: 100%;
