@@ -196,7 +196,7 @@ ul {
 
 .text-of-box1 a:hover {
     color: #EF4F5F;
-<<<<<<< HEAD
+
 }
 
 .text-of-box1 a::before {
@@ -220,8 +220,6 @@ ul {
 li:target .text-of-box1 a::before {
     visibility: visible;
     width: 100%;
-=======
->>>>>>> 749cf53aa32f311d5a9cf1f3aceca8048f45293b
 }
 
 .text-of-box1 a::before {
